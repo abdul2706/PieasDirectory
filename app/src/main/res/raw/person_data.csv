@@ -1,0 +1,31 @@
+name                  ,designation,post                         							,department,officeLocation,extension,phoneNo    ,cellNo      ,email
+Asifullah Khan        ,           ,Head of the Department              ,DCIS      ,A-001				     ,0000     ,012-3456789,0331-1234567,asif@pieas.edu.pk
+Mutawarra Hussain     ,           ,Dean Research                       ,DCIS      ,A-002				     ,0001     ,012-3456790,0331-1234568,mutawarra@pieas.edu.pk
+Naeem Ahmed           ,           ,Director IT & Telecom Endowment Fund,DCIS      ,A-003				     ,0002     ,012-3456791,0331-1234569,naeem.ahmed@pieas.edu.pk
+Anila Usman           ,           ,Controller of Examinations          ,DCIS      ,A-004				     ,0003     ,012-3456792,0331-1234570,anila@pieas.edu.pk
+Javaid Khurshid       ,           ,                                    ,DCIS      ,A-005				     ,0004     ,012-3456793,0331-1234571,JavaidK@pieas.edu.pk
+Abdul Majid           ,           ,                                    ,DCIS      ,A-006				     ,0005     ,012-3456794,0331-1234572,abdulmajiid@pieas.edu.pk
+Muhammad Hanif Durad  ,           ,                                    ,DCIS      ,A-007				     ,0006     ,012-3456795,0331-1234573,hanif@pieas.edu.pk
+Shahzad Ahmad Qureshi ,           ,                                    ,DCIS      ,A-008				     ,0007     ,012-3456796,0331-1234574,drsaqureshi@pieas.edu.pk
+Aneela Zameer Jaafery ,           ,                                    ,DCIS      ,A-009				     ,0008     ,012-3456797,0331-1234575,aneelaz@pieas.edu.pk
+Irfan ul Haq          ,           ,                                    ,DCIS      ,A-010				     ,0009     ,012-3456798,0331-1234576,irfanulhaq@pieas.edu.pk
+Muhammad Arif         ,           ,Head of the Department              ,DEE       ,A-011				     ,0010     ,012-3456799,0331-1234577,arif@pieas.edu.pk
+Naeem Iqbal           ,           ,designation                         ,DEE       ,A-012				     ,0011     ,012-3456800,0331-1234578,naeem@pieas.edu.pk
+Haroon-ur-Rashid      ,           ,Registrar                           ,DEE       ,A-013				     ,0012     ,012-3456801,0331-1234579,haroon@pieas.edu.pk
+Mohammad Jaudet       ,           ,                                    ,DEE       ,A-014				     ,0013     ,012-3456802,0331-1234580,jaudet@pieas.edu.pk
+Muhammad Tufail       ,           ,                                    ,DEE       ,A-015				     ,0014     ,012-3456803,0331-1234581,tufail@pieas.edu.pk
+Kamran Ullah Khan     ,           ,                                    ,DEE       ,A-016				     ,0015     ,012-3456804,0331-1234582,kamran@pieas.edu.pk
+Nauman Masud          ,           ,                                    ,DEE       ,A-017				     ,0016     ,012-3456805,0331-1234583,fac082@pieas.edu.pk
+Nasir Rahman Jadoon   ,           ,                                    ,DEE       ,A-018				     ,0017     ,012-3456806,0331-1234584,fac083@pieas.edu.pk
+Sufi Tabassum Gul     ,           ,                                    ,DEE       ,A-019				     ,0018     ,012-3456807,0331-1234585,tabassum_gul@pieas.edu.pk
+Muhammad Shahid Nazir ,           ,                                    ,DEE       ,A-020				     ,0019     ,012-3456808,0331-1234586,shahidnazir@pieas.edu.pk
+Kamran Rasheed Qureshi,           ,Head of the Department              ,DME       ,A-021				     ,0020     ,012-3456809,0331-1234587,k.qureshi@pieas.edu.pk
+Mohammad Javed Hyder  ,           ,                                    ,DME       ,A-022				     ,0021     ,012-3456810,0331-1234588,hyder@pieas.edu.pk
+Asad Majid            ,           ,                                    ,DME       ,A-023				     ,0022     ,012-3456811,0331-1234589,asad.majid@pieas.edu.pk
+Ishtiaq Ahmad         ,           ,                                    ,DME       ,A-024				     ,0023     ,012-3456812,0331-1234590,ishtiaq@pieas.edu.pk
+Afzaal Hussain Hamdani,           ,Head Utility Maintenance Division   ,DME       ,A-025				     ,0024     ,012-3456813,0331-1234591,afzaal@pieas.edu.pk
+Rizwan Alim Mufti     ,           ,                                    ,DME       ,A-026				     ,0025     ,012-3456814,0331-1234592,mufti@pieas.edu.pk
+Muhammad Abid Ilyas   ,           ,                                    ,DME       ,A-027				     ,0026     ,012-3456815,0331-1234593,abidilyas@pieas.edu.pk
+Muhammad Akmal        ,           ,                                    ,DME       ,A-028				     ,0027     ,012-3456816,0331-1234594,akmal@pieas.edu.pk
+Atique Ahmad          ,           ,                                    ,DME       ,A-029				     ,0028     ,012-3456817,0331-1234595,atiq@pieas.edu.pk
+Muhammad Zahid Iqbal  ,           ,                                    ,DME       ,A-030				     ,0029     ,012-3456818,0331-1234596,muhammad_zi@pieas.edu.pk

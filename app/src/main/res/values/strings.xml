@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PIEAS Directory</string>
+    <string name="empty">Enter</string>
+    <string name="person_image">Person Image</string>
+    <string name="person_list">PIEAS List (%d:%d)</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="search_student">Search Person</string>
+    <string name="person_name">Name:</string>
+    <string name="designation">Designation:</string>
+    <string name="post">Post:</string>
+    <string name="department">Department:</string>
+    <string name="department_hint">DEE, DME, DCIS</string>
+    <string name="office_location">Office Location:</string>
+    <string name="extension">Extension:</string>
+    <string name="extension_hint">####</string>
+    <string name="phone_no">Phone No:</string>
+    <string name="phone_no_hint">#######</string>
+    <string name="cell_no">Cell No:</string>
+    <string name="cell_no_hint">###########</string>
+    <string name="email">E-Mail:</string>
+    <string name="email_hint">userName@domain.com</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="about">About</string>
+    <string name="remove">Remove</string>
+    <string name="show_all">Show All</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="edit">Edit</string>
+    <string name="load_person">Load Person</string>
+    <string name="delete_table">Delete Table</string>
+</resources>

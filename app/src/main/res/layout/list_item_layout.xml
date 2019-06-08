@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:padding="0dp"
+    tools:context=".ShowPersonActivity">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/black_boundary"
+        android:padding="0dp"
+        tools:context=".ShowPersonActivity">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/black_boundary"
+            android:padding="4dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/departmentTextView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/departmentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/black_boundary"
+            android:gravity="end"
+            android:padding="4dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/nameTextView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Department" />
+
+        <TextView
+            android:id="@+id/postTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/black_boundary"
+            android:padding="4dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/departmentTextView"
+            tools:text="Post" />
+
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

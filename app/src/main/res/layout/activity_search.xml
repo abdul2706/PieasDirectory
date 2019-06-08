@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/person_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pieas_directory_03" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/personNameTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/person_name"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/personNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/empty"
+                    android:inputType="text"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/designationTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/designation"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/designationEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/empty"
+                    android:inputType="text"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/postTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/post"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/postEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/empty"
+                    android:inputType="text"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/departmentTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/department"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/departmentEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/department_hint"
+                    android:inputType="text"
+                    android:maxLength="5"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/officeLocationTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/office_location"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/officeLocationEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/empty"
+                    android:inputType="text"
+                    android:maxLength="4"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/extensionTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/extension"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/extensionEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/extension_hint"
+                    android:inputType="phone"
+                    android:maxLength="4"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/phoneNoTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/phone_no"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/phoneNoEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/phone_no_hint"
+                    android:inputType="phone"
+                    android:maxLength="7"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cellNoTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/cell_no"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/cellNoEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/cell_no_hint"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_boundary"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/emailTextView"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:gravity="end"
+                    android:padding="8dp"
+                    android:text="@string/email"
+                    android:textAllCaps="true"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/black_boundary"
+                    android:ems="10"
+                    android:hint="@string/email_hint"
+                    android:inputType="textEmailAddress"
+                    android:padding="8dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/searchButton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_green_light"
+                    android:onClick="actionPerformed"
+                    android:padding="8dp"
+                    android:text="@string/search"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/cancelButton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_red_light"
+                    android:onClick="actionPerformed"
+                    android:padding="8dp"
+                    android:text="@string/cancel"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
